@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.liu233w.library</OriginalElement>
+  <nodes>
+    <node x="1054.25" y="101.0">com.liu233w.library.core.MenuItem</node>
+    <node x="188.0" y="366.0">com.liu233w.library.tags.BookItemTag</node>
+    <node x="0.0" y="687.0">com.liu233w.library.core.UserHelper</node>
+    <node x="269.25" y="183.0">com.liu233w.library.core.RoleNames</node>
+    <node x="677.0874999999999" y="387.0">com.liu233w.library.core.MenuProvider</node>
+    <node x="0.0" y="865.0">com.liu233w.library.core.BookHelper</node>
+    <node x="686.1249999999999" y="550.0">com.liu233w.library.tags.MenuTag</node>
+  </nodes>
+  <notes>
+    <note x="1063.25" y="0.0">
+      <node>com.liu233w.library.core.MenuItem</node>
+      <value>表示一个菜单项</value>
+      <edge>
+        <point x="0.0" y="-107.5" />
+        <point x="0.0" y="25.5" />
+      </edge>
+    </note>
+    <note x="371.2853437094682" y="569.6997405966279">
+      <node>com.liu233w.library.tags.MenuTag</node>
+      <value>实际展示菜单</value>
+      <edge>
+        <point x="-80.33333333333326" y="-46.0" />
+        <point x="726.2916666666666" y="525.0" />
+        <point x="571.8664072632944" y="525.0" />
+        <point x="0.0" y="25.5" />
+      </edge>
+    </note>
+    <note x="231.75" y="0.0">
+      <node>com.liu233w.library.core.RoleNames</node>
+      <value>存储角色名称，便于复用</value>
+      <edge>
+        <point x="0.0" y="-25.5" />
+        <point x="0.0" y="25.5" />
+      </edge>
+    </note>
+    <note x="492.25" y="183.0">
+      <node>com.liu233w.library.core.MenuProvider</node>
+      <value>声明菜单（使用这个类把菜单声明跟菜单展示解耦）</value>
+      <edge>
+        <point x="-43.374999999999886" y="-46.0" />
+        <point x="807.2125000000001" y="346.0" />
+        <point x="763.25" y="346.0" />
+        <point x="0.0" y="25.5" />
+      </edge>
+    </note>
+  </notes>
+  <edges>
+    <edge source="com.liu233w.library.tags.BookItemTag" target="com.liu233w.library.core.RoleNames">
+      <point x="0.0" y="-67.0" />
+      <point x="-50.75" y="25.5" />
+    </edge>
+    <edge source="com.liu233w.library.core.MenuProvider" target="com.liu233w.library.core.RoleNames">
+      <point x="-130.1249999999999" y="-46.0" />
+      <point x="720.4625000000001" y="346.0" />
+      <point x="421.5" y="346.0" />
+      <point x="50.75" y="25.5" />
+    </edge>
+    <edge source="com.liu233w.library.tags.MenuTag" target="com.liu233w.library.core.MenuProvider">
+      <point x="0.0" y="-46.0" />
+      <point x="806.6249999999999" y="525.0" />
+      <point x="850.5874999999999" y="525.0" />
+      <point x="0.0" y="46.0" />
+    </edge>
+    <edge source="com.liu233w.library.core.MenuProvider" target="com.liu233w.library.core.MenuItem">
+      <point x="43.375000000000114" y="-46.0" />
+      <point x="893.9625000000001" y="336.0" />
+      <point x="1088.9166666666667" y="336.0" />
+      <point x="-69.33333333333326" y="107.5" />
+    </edge>
+    <edge source="com.liu233w.library.tags.MenuTag" target="com.liu233w.library.core.MenuItem">
+      <point x="80.33333333333337" y="-46.0" />
+      <point x="886.9583333333333" y="525.0" />
+      <point x="1193.2937499999998" y="525.0" />
+      <point x="1193.2937499999998" y="346.0" />
+      <point x="1227.5833333333333" y="346.0" />
+      <point x="69.33333333333326" y="107.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.789150460593654" x="631.5" y="478.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
