@@ -24,3 +24,5 @@ nbdist/
 .nb-gradle/
 
 /out
+
+!/文档、依赖
